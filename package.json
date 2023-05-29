@@ -1,5 +1,18 @@
 {
   "dependencies": {
+    "gulp-cli": "^2.3.0",
     "gulp-sass": "^5.1.0"
-  }
+  },
+  "name": "bgproject",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Berik",
+  "license": "ISC",
+  "description": ""
 }

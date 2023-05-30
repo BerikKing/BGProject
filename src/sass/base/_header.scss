@@ -23,7 +23,14 @@
             &_link {
                 text-decoration: none;
                 color: #fff;
+                transition: all 200ms linear;
             }
+            &_link:hover {
+                color: #d00707;
+            }
+        }
+        .mobile_menu {
+            display: none;
         }
       }
 }

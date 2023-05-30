@@ -1,0 +1,37 @@
+@media  screen and (min-width: 768px)and(max-width: 901px) {
+    .container {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .header {
+        &_inner {
+            .logo {
+                font-size: 1.6em;
+            }
+            &_menu {
+                width: 60%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    .header {
+        &_inner {
+            height: 60px;
+            .logo {
+                font-size: 1.5em;
+            }
+            &_menu {
+                display: none;
+            }
+            .mobile_menu {
+                display: flex;
+            }
+        }
+        
+    }
+}

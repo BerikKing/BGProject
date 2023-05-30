@@ -1,0 +1,39 @@
+.mobile_menu {
+    width: 30px;
+    height: 30px;
+    // border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .humburger {
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+    .humburger-1 {
+        width: 50%;
+    }
+    .humburger-3 {
+        width: 50%;
+        // margin-left: 50%;
+        transform: translate(100%);
+
+    }
+    .humburger-1.active {
+        transform: rotate(45deg);
+        transform-origin: 0px 8px;
+    }
+    .humburger-2.active {
+        transform: rotate(-45deg);
+    }
+    .humburger-3.active {
+        transform: rotate(45deg);
+        transform-origin: 21px 15px;
+        // transform-origin: 14px -2px;
+
+
+    }
+
+}

@@ -1,4 +1,4 @@
-@media  screen and (min-width: 800px) {
+@media  screen and (max-width: 800px) {
     .container {
         max-width: 750px;
         margin: 0 auto;
@@ -16,7 +16,7 @@
 }
 @media screen and (max-width: 600px) {
     .container {
-        max-width: 400px;
+        max-width: 450px;
         margin: 0 auto;
     }
     .header {
@@ -30,6 +30,7 @@
             }
             .mobile_menu {
                 display: flex;
+                cursor: pointer;
             }
         }
         
